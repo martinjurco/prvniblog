@@ -1,0 +1,12 @@
+<html>
+    <h1>Muj blog</h1>
+    <p>Funguje to!</p>
+
+    {% for post in posts %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.text }}</p>
+    {% endfor %}
+
+    {{ posts }}
+
+</html>
